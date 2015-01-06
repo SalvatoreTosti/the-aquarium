@@ -12,3 +12,7 @@ set showmatch " highligh matching [{()}]
 " Searching
 set incsearch " search as chars are entered
 set hlsearch " highlight matches
+
+" key remaps
+inoremap jk <esc>
+inoremap <esc> <nop>
