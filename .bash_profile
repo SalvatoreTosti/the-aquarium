@@ -4,9 +4,7 @@ export PATH=/usr/local/bin:$PATH
 
 alias TextMate='open -a TextMate '					#open up a document in textmate
 mcd () { mkdir -p "$1" && cd "$1"; }				#make directory and jump into it
-alias edwards='ssh gartnersnake@anthill.sdsu.edu' 	#ssh into anthill, to be used from campus
 alias c='clear'  									#c is now clear, for quicker typing
-alias rohan='ssh -X -Y tosti@rohan.sdsu.edu'
 alias grip='sh /Users/Tosti/grip/grip.sh'
 alias cclear='clear ; clear'	#my attempt to double clear screen
 alias rm='rm -i'
